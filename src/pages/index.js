@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
+console.log('hiren parmar');
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
