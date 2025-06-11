@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 //const a=20;
-
+//bbb
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
+  console.log('test')
   return (
     <>
       <Head>
